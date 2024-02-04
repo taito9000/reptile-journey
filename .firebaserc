@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "reptile-journey"
-  }
+  },
+  "targets": {
+    "reptile-journey": {
+      "hosting": {
+        "public-dev": [
+          "reptile-journey"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

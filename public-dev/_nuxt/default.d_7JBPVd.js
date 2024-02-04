@@ -1,0 +1,1 @@
+import{_ as t,v as a,L as s,M as n,x as o,t as r}from"./entry.LB-Ec5UR.js";const c={},l=o("div",null,"default.vue!!!",-1);function _(e,d){return r(),a(n,null,[l,s(e.$slots,"default")],64)}const u=t(c,[["render",_]]);export{u as default};

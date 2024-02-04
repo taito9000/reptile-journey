@@ -20,7 +20,8 @@
     }
   ],
   "hosting": {
-    "public": ".output/public",
+    "target":"public-dev",
+    "public": "public-dev",
     "ignore": [
       "firebase.json",
       "**/.*",
