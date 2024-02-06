@@ -1,13 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr:false,
+  ssr: false,
   devtools: { enabled: true },
-  nitro:{
-    preset:"vercel",
-    output:{
+  nitro: {
+    preset: "vercel",
+    output: {
       // publicDir: process.env.ENV !== 'prod' ? '../public-dev' : '../public-prod'
-      publicDir:'../public-dev'
-    }
+      publicDir: "../public-dev",
+    },
   },
   runtimeConfig: {
     public: {
@@ -19,5 +19,5 @@ export default defineNuxtConfig({
       AppId: process.env.FIREBASE_APP_ID,
       MeasurementId: process.env.FIREBASE_MEASUREMENTID,
     },
-  }
-})
+  },
+});
